@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'unauthorized' => 'Nieautoryzowany',
+    'user_not_found' => 'Użytkownik niedostępny',
+    'invalid_pin' => 'Wprowadź poprawny kod PIN',
+    'account_unapproved' => 'Twoja rejestracja oczekuje na zatwierdzenie, spróbuj zalogować się później',
+    'login_success' => 'Jesteś zalogowany pomyślnie',
+    'user_delete' => 'Twoje konto zostało pomyślnie usunięte',
+    'logout_success' => 'Wyloguj się pomyślnie',
+    'forgot_sms_text' => 'Cześć, :name Poprosiłeś o hasło jednorazowe, aby zresetować hasło do konta :app_name.Twoje hasło jednorazowe to :otp.OTP będzie ważne przez :mins minuty.Proszę nie udostępniać tego hasła jednorazowego nikomu innemu, jeśli nie zainicjowałeś tego żądania,proszę kontakt: nazwa_aplikacji',
+    'otp_sent' => 'OTP zostało wysłane na Twój telefon/e-mail',
+    'email_subject' => 'Zapomniałeś hasła',
+    'greeting_email' => 'Cześć, :name Poprosiłeś o hasło jednorazowe, aby zresetować hasło do konta :app_name.',
+    'otp' => 'Twoje hasło jednorazowe to ":otp".',
+    'otp_valid' => 'OTP będzie ważny przez :min min.',
+    'otp_content' => 'Proszę nie udostępniać tego OTP nikomu innemu. Jeśli to żądanie nie zostało zainicjowane przez Ciebie,<br/> skontaktuj się z: app_name',
+    'invalid_token' => 'Nieprawidłowy Token',
+    'otp_verified' => 'OTP pomyślnie zweryfikował',
+    'otp_expire' => 'OTP wygasł',
+    'invalid_otp' => 'Nieprawidłowe OTP',
+    'reset_success' => 'Pomyślnie zresetuj hasło',
+    'block_login' => 'Twoje konto blokuje się na :czas minut',
+    'signup_success' => 'Rejestracja zakończyła się pomyślnie, a Twoje konto jest w trakcie sprawdzania',
+    'forgot_sms_text' => 'Cześć, :name Poprosiłeś o hasło jednorazowe, aby zresetować hasło do konta :app_name. Twoje hasło OTP to :otp.OTP będzie ważne przez :mins minut. Nie udostępniaj tego OTP nikomu innemu, jeśli nie zainicjowałeś tego żądania, skontaktuj się z: nazwa_aplikacji.',
+    'scheduled_deleted_date_success' => 'Zaplanuj pomyślne zapisanie usuniętych danych',
+    'suspend_account' => 'Twoje konto jest zawieszone',
+];
